@@ -1,7 +1,37 @@
-/* Style */
+/* Region setup */
 #left {
+	position:absolute;
+	width:25%;
+	background:#FF0004;
+	height:100%;
 }
 #center {
+	position:absolute;
+	left:25%;
+	width:50%;
+	background:#02FF00;
+	height:100%;
 }
 #right {
+	position:absolute;
+	left:75%;
+	width:25%;
+	background:#1A00FF;
+	height:100%;
 }
+
+/* Inner Region Setup */
+#left #top {
+	position:relative;
+	height:30%;
+	background:#FF7173;
+}
+#left #bottom {
+	position:relative;
+	height:70%;
+	background:#B72B2D;
+}
+
+/* */
+
+
