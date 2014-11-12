@@ -16,7 +16,6 @@ body {
 	width:100%;
 	margin:0px;
 	padding:0px;
-	overflow-x:hidden;
 	font-family: 'Source Sans Pro';
 }
 a.link, a:visited {
@@ -28,23 +27,19 @@ a.link, a:visited {
 	transition-duration:0.3s;
 	transition-timing-function:linear;
 	transition-delay:0.1s;
-	/* Firefox 4 */	
 	-moz-transition-property:all;
 	-moz-transition-duration:0.3s;	
 	-moz-transition-timing-function:linear;
 	-mov-transition-delay:0.1s;
-	/* Safari and Chrome */
 	-webkit-transition-property:all;
 	-webkit-transition-duration:0.3s;
 	-webkit-transition-timing-function:linear;
 	-webkit-transition-delay:0.1s;
+	cursor:default;
 }
-
-
 a.link:hover {
-	color:#F00;
+	color:#FFFFFF;
 }
-
 a.link:active {
 	color:#6cd0d0;
 }
