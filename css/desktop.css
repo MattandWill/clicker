@@ -16,7 +16,7 @@
 	position:absolute;
 	left:75%;
 	width:25%;
-	background:#1A00FF;
+	background:#FFFFFF;
 	height:100%;
 }
 
@@ -33,5 +33,19 @@
 }
 
 /* */
+
+#right li {
+	list-style:none;
+}
+#right ul {
+	background:#F0F0F0;
+}
+#right .list-group {
+	background:#D3D3D3;
+}
+#right .title  {
+	text-align:center;
+	font-size:34px;
+}
 
 
