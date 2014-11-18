@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- Start of the Website -->
-<title>Cool Tilte Please</title>
+<title>Cool Title Please</title>
 
 <!-- Meta Tags -->
 <meta name="description" content="What is this even about">
@@ -63,6 +63,7 @@ font-family: 'Sail', cursive;
 
 <body>
 <script type="text/javascript" src="scripts/funtions.js"></script>
+<script type="text/javascript" src="scripts/mattTest.js"></script>
 
 <!-- LEFT SIDE -->
 <div id="left">
@@ -71,7 +72,13 @@ font-family: 'Sail', cursive;
 </div>
 
 <!-- CENTER PART -->
+<<<<<<< Updated upstream
 <div id="center"><div id="frame"><iframe src="content.html" id="my-iframe" scrolling="no"></iframe></div></div>
+=======
+<div id="center">
+    <button id="Area1" onclick="addStuff()">Area 1</button>
+</div>
+>>>>>>> Stashed changes
 
 <!-- RIGHT SIDE -->
 <div id="right">
@@ -80,10 +87,11 @@ font-family: 'Sail', cursive;
 <a class="collapse" href="javascript:void(0)">Hide all</a>
     <div class="list-group"> <a class="collapse" href="javascript:void(0)">Wood</a>
 
+        
         <ul class="submenu">
-            <li class="subitem">Timber</li>
-            <li class="subitem">Pine</li>
-            <li class="subitem">Oak</li>
+            <li class="subitem" id="TimberNo">Timber:0</li>
+            <li class="subitem" id="PineNo">Pine:0</li>
+            <li class="subitem" id="OakNo">Oak:0</li>
         </ul>
     </div>
     <div class="list-group">
