@@ -15,6 +15,7 @@ var skills ={
     gathering:1,
     exploration:1,
     luck:1,
+    //
     metalWork:1,
     woodWork:1,
     leatherWork:1,
@@ -36,32 +37,39 @@ function changeHTML(){
 }
 
 function addStuff(){
-    resources.Timber+=parseInt(Math.random(skills.gathering)+1);
+    resources.Timber+=Math.round(Math.random(skills.gathering));
     changeHTML();
 }
 
 function addStuff2(){
-    resources.Timber+=1;
+    resources.Steel+=1;
     changeHTML();
 }
 
 function addStuff3(){
-    resources.Timber+=1;
+    resources.Aluminium+=1;
     changeHTML();
 }
 
 function addStuff4(){
-    resources.Timber+=1;
+    resources.Limestone+=1;
     changeHTML();
 }
 
 function addStuff5(){
-    resources.Timber+=1;
+    resources.Sandstone+=1;
     changeHTML();
 }
 
-function checkSkillLvl(var lvlRequired){
-    if(skills.exploration==lvlRequired){
-        addStuff2();
+function checkSkillLvl(lvlRequired, func){
+    if(skills.exploration>=lvlRequired){
+        func();
     }
+}
+
+function addNumber(item)
+{
+	var number2=Math.round(Math.random()*10);
+	number+=number2;
+	document.getElementById("numbers").innerHTML = item+": " + number+" Start number: " + number2;
 }

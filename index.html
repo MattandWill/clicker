@@ -76,11 +76,11 @@ font-family: 'Sail', cursive;
 <div id="center"><div id="frame"><iframe src="content.html" id="my-iframe" scrolling="no"></iframe></div></div>
 =======
 <div id="center">
-    <button id="Area1" onclick="addStuff()">Area 1</button>
-    <button id="Area2" onclick="checkSkillLvl(10)">Area 2</button>
-    <button id="Area3" onclick="addStuff3()">Area 3</button>
-    <button id="Area4" onclick="addStuff4()">Area 4</button>
-    <button id="Area5" onclick="addStuff5()">Area 5</button>
+    <button id="Area1" onclick="checkSkillLvl(1,addStuff)">Area 1</button>
+    <button id="Area2" onclick="checkSkillLvl(10,addStuff2)">Area 2</button>
+    <button id="Area3" onclick="checkSkillLvl(20,addStuff3)">Area 3</button>
+    <button id="Area4" onclick="checkSkillLvl(30,addStuff4)">Area 4</button>
+    <button id="Area5" onclick="checkSkillLvl(40,addStuff5)">Area 5</button>
 </div>
 >>>>>>> Stashed changes
 
@@ -102,19 +102,19 @@ font-family: 'Sail', cursive;
         <a class="collapse" href="javascript:void(0)">Metal</a>
 
         <ul class="submenu">
-            <li class="subitem" id="SteelNo">Steel</li>
-            <li class="subitem" id="AlNo">Aluminium</li>
-            <li class="subitem" id="RGNo">Rusty Gate</li>
+            <li class="subitem" id="SteelNo">Steel: 0</li>
+            <li class="subitem" id="AlNo">Aluminium: 0</li>
+            <li class="subitem" id="RGNo">Rusty Gate: 0</li>
         </ul>
     </div>
     <div  class="list-group">
         <a class="collapse" href="javascript:void(0)">Stone</a>
 
         <ul class="submenu">
-            <li class="subitem" id="GraniteNo">Grantie</li>
-            <li class="subitem" id="MarbleNo">Marble</li>
-            <li class="subitem" id="LimestoneNo">Limestone</li>
-            <li class="subitem" id="SandstoneNo">Sandstone</li>
+            <li class="subitem" id="GraniteNo">Grantie: 0</li>
+            <li class="subitem" id="MarbleNo">Marble: 0</li>
+            <li class="subitem" id="LimestoneNo">Limestone: 0</li>
+            <li class="subitem" id="SandstoneNo">Sandstone: 0</li>
         </ul>
     </div>
 </div>
