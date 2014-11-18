@@ -12,7 +12,14 @@ var resources = {
 }
 
 var skills ={
-    
+    gathering:1,
+    exploration:1,
+    luck:1,
+    metalWork:1,
+    woodWork:1,
+    leatherWork:1,
+    stoneWork:1,
+    jewllery:1
 }
 
 function changeHTML(){
@@ -29,7 +36,7 @@ function changeHTML(){
 }
 
 function addStuff(){
-    resources.Timber+=1;
+    resources.Timber+=parseInt(Math.random(skills.gathering)+1);
     changeHTML();
 }
 
@@ -53,6 +60,8 @@ function addStuff5(){
     changeHTML();
 }
 
-function checkSkillLvl(){
-    
+function checkSkillLvl(var lvlRequired){
+    if(skills.exploration==lvlRequired){
+        addStuff2();
+    }
 }
