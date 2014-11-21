@@ -37,27 +37,32 @@ function changeHTML(){
 }
 
 function addStuff(){
-    resources.Timber+=Math.round(Math.random(skills.gathering));
+    var number = Math.round(Math.random()*skills.gathering);
+    resources.Timber+=number;
     changeHTML();
 }
 
 function addStuff2(){
-    resources.Steel+=1;
+    var number = Math.round(Math.random()*skills.gathering-(skills.exploration*2));
+    resources.Steel+=number;
     changeHTML();
 }
 
 function addStuff3(){
-    resources.Aluminium+=1;
+    var number = Math.round(Math.random()*skills.gathering-(skills.exploration*3));
+    resources.Aluminium+=number;
     changeHTML();
 }
 
 function addStuff4(){
-    resources.Limestone+=1;
+    var number = Math.round(Math.random()*skills.gathering-(skills.exploration*4));
+    resources.Limestone+=number;
     changeHTML();
 }
 
 function addStuff5(){
-    resources.Sandstone+=1;
+    var number = Math.round(Math.random()*skills.gathering-(skills.exploration*5));
+    resources.Sandstone+=number;
     changeHTML();
 }
 
