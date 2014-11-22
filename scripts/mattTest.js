@@ -1,16 +1,42 @@
-var resources = {
-    Timber:0,
-    Pine:0,
-    Oak:0,
-    Steel:0,
-    Aluminium:0,
-    RustyGate:0,
-    Granite:0,
-    Marble:0,
-    Limestone:0,
-    Sandstone:0
+var wood = {
+    timber:0,
+    pine:0,
+    oak:0 ,
+    mahogamy:0,
+    lahcenium:0
 }
-
+var stone = {
+    flint:0,
+    limestone:0,
+    marble:0,
+    grannit:0,
+    devlinese:0
+}
+var metal = {
+    steel:0,
+    allumiunum:0,
+    silver:0,
+    gold:0,
+    marocnium:0 
+}
+var jewel = {
+    saphire:0,
+    ememrald:0,
+    ruby:0,
+    diamond:0,
+    gilliesion:0
+}
+var platics = {
+    acrylic:0,
+    pvc:0,
+    polystyrene:0,
+    polytetrafluoroethylene:0,
+    katanium:0
+}
+var cookies = {
+    mysticCow:0,
+    fieniumBrinkious:0
+}
 var skills ={
     gathering:1,
     exploration:1,

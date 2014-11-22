@@ -1,0 +1,40 @@
+wood
+    timber
+    pine
+    oak 
+    mahogamy
+    Lahcenium
+
+stone
+    flint
+    limestone
+    marble
+    grannit
+    Devlinese
+    
+metal
+    steel
+    allumiunum
+    silver
+    gold
+    Marocnium 
+
+jewel
+    saphire
+    ememrald
+    ruby
+    diamond
+    gilliesion
+
+platics
+    acrylic
+    PVC
+    Polystyrene
+    Polytetrafluoroethylene
+    katanium
+    
+cookies
+    Mystic Cow
+    fienium brinkious
+
+Marocnium 
