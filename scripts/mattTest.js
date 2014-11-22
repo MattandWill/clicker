@@ -7,17 +7,17 @@ var lahcenium = new item("Wood",50);
 var flint = new item("Stone",1);
 var limestone = new item("Stone",10);
 var marble = new item("Stone",20);
-var grannit = new item("Stone",30);
+var granite = new item("Stone",30);
 var devlinese = new item("Stone",50);
 
 var steel = new item("metal",1);
-var alluminiunum = new item("metal",10);
+var aluminium = new item("metal",10);
 var silver = new item("metal",20);
 var gold = new item("metal",30);
 var marconium = new item("metal",50);
 
 var sapphire = new item("jewel",1);
-var ememrald = new item("jewel",10);
+var emerald = new item("jewel",10);
 var ruby = new item("jewel",20);
 var diamond = new item("jewel",30);
 var gilliesion = new item("jewel",50);
@@ -40,6 +40,7 @@ function item (type, requiredlvl) {
     }
 }
 
+<<<<<<< Updated upstream
 //var wood = {
 //    timber:0,
 //    pine:0,
@@ -80,6 +81,8 @@ function item (type, requiredlvl) {
 //    fieniumBrinkious:0
 //}
 
+=======
+>>>>>>> Stashed changes
 var skills ={
     gathering:1,
     exploration:1,
@@ -93,16 +96,31 @@ var skills ={
 }
 
 function changeHTML(){
-    document.getElementById("TimberNo").innerHTML="Timber: "+resources.Timber;
-    document.getElementById("PineNo").innerHTML="Pine: "+resources.Pine;
-    document.getElementById("OakNo").innerHTML="Oak: "+resources.Oak;
-    document.getElementById("SteelNo").innerHTML="Steel: "+resources.Steel;
-    document.getElementById("AlNo").innerHTML="Aluminium: "+resources.Aluminium;
-    document.getElementById("RGNo").innerHTML="Rusty Gate: "+resources.RustyGate;
-    document.getElementById("GraniteNo").innerHTML="Granite: "+resources.Granite;
-    document.getElementById("MarbleNo").innerHTML="Marble: "+resources.Marble;
-    document.getElementById("LimestoneNo").innerHTML="Limestone: "+resources.Limestone;
-    document.getElementById("SandstoneNo").innerHTML="Sandstone: "+resources.Sandstone;
+    document.getElementById("TimberNo").innerHTML="Timber: "+timber.number;
+    document.getElementById("PineNo").innerHTML="Pine: "+pine.number;
+    document.getElementById("OakNo").innerHTML="Oak: "+oak.number;
+    document.getElementById("MahoganyNo").innerHTML="Mahogany: "+mahogany.number;
+    document.getElementById("LahceniumNo").innerHTML="Lahcenium: "+lahcenium.number;
+    document.getElementById("FlintNo").innerHTML="Flint: "+flint.number;
+    document.getElementById("LimestoneNo").innerHTML="Limestone: "+limestone.number;
+    document.getElementById("MarbleNo").innerHTML="Marble: "+marble.number;
+    document.getElementById("GraniteNo").innerHTML="Granite: "+granite.number;
+    document.getElementById("DevlineseNo").innerHTML="Devlinese: "+devlinese.number;
+    document.getElementById("SteelNo").innerHTML="Steel: "+steel.number;
+    document.getElementById("AluminiumNo").innerHTML="Aluminium: "+aluminium.number;
+    document.getElementById("SilverNo").innerHTML="Silver: "+silver.number;
+    document.getElementById("GoldNo").innerHTML="Gold: "+gold.number;
+    document.getElementById("MarconiumNo").innerHTML="Marconium: "+marconium.number;
+    document.getElementById("SapphireNo").innerHTML="Sapphire: "+sapphire.number;
+    document.getElementById("EmeraldNo").innerHTML="Emerald: "+emerald.number;
+    document.getElementById("RubyNo").innerHTML="Ruby: "+ruby.number;
+    document.getElementById("DiamondNo").innerHTML="Diamond: "+diamond.number;
+    document.getElementById("Gilliesion").innerHTML="Gilliesion: "+gilliesion.number;
+    document.getElementById("AcrylicNo").innerHTML="Acrylic: "+acrylic.number;
+    document.getElementById("PvcNo").innerHTML="PVC: "+pvc.number;
+    document.getElementById("PolystyreneNo").innerHTML="Polystyrene: "+polystyrene.number;
+    document.getElementById("PolytetrafluorethyleneNo").innerHTML="Polytetrafluorethylene: "+polytetrafluoroethylene.number;
+    document.getElementById("KataniumNo").innerHTML="Katanium: "+katanium.number;
 }
 
 function addStuff(){
